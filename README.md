@@ -6,8 +6,8 @@ rust_simul = { git = "https://github.com/spar7453/rust_simul" }
 ```
 
 # Depedencies
-- Matrix and Vector calculation requires $peroxide$
-- Random number genrator can be used from other libraries
+- Matrix and Vector calculation requires *[peroxide](https://github.com/Axect/Peroxide)*
+- Random number generator can be used from other libraries
 
 # Example
 ```rust
