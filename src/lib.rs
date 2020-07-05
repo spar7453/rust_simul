@@ -3,7 +3,7 @@ pub struct FloatSimul;
 pub struct VectorSimul;
 pub struct MatrixSimul;
 
-trait MonteCarlo {
+pub trait MonteCarlo {
     type RHS;
     fn sample<'a, F, T>(f: &'a F, param: &'a T) -> Self::RHS
     where
