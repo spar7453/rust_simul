@@ -1,7 +1,7 @@
 use peroxide::fuga::{Matrix, Vector};
-struct FloatSimul;
-struct VectorSimul;
-struct MatrixSimul;
+pub struct FloatSimul;
+pub struct VectorSimul;
+pub struct MatrixSimul;
 
 trait MonteCarlo {
     type RHS;
